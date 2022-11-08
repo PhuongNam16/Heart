@@ -4,10 +4,10 @@
 
 var settings = {
   particles: {
-    length: 3000, // maximum amount of particles
-    duration: 4, // particle duration in sec
+    length: 2000, // maximum amount of particles
+    duration: 3, // particle duration in sec
     velocity: 70, // particle velocity in pixels/sec
-    effect: -1.3, // play with this for a nice effect
+    effect: -1, // play with this for a nice effect
     size: 10, // particle size in pixels
   },
 };
@@ -252,5 +252,5 @@ var ParticlePool = (function () {
   setTimeout(function () {
     onResize();
     render();
-  }, 10);
+  }, 100);
 })(document.getElementById("pinkboard"));
